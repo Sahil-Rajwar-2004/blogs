@@ -16,7 +16,7 @@
         <div class="content">
             <div class="meta">
                 <h1 class="title">The Ultimate Showdown: CPU vs GPU</h1>
-                <span class="time">July 14, 2024</span>
+                <span class="time">July 17, 2024</span>
             </div>
             <div class="div">
                 <br><br>
@@ -70,21 +70,21 @@
                 <div class="introduction">
                     <h1 id="intro">Introduction</h1>
                     <p>
-                        In todays world, we can't imagine our life without processors. We use processors in our day to day lifes from TV to Phones and Phones to Super Computer. Now I'm writing this blog on my laptop and laptop runs when processors do their job,
-                        understading processors specifically CPUs and GPUs becomes crucial to understand its behaviour how data is processed and how memory is allocated to a specific memory location. Big companies like <span class="term">Intel</span>, <span class="term">AMD</span>,
+                        In todays world, we can't imagine our life without processors. We use processors in our day to day lives from TV to Phones and Phones to Super Computer. I'm writing this blog on my laptop and laptop runs when processors that perform some computation behind,
+                        understading processors specifically CPUs and GPUs becomes crucial to understand its behaviour how data is being processe and how memory is allocated to a specific memory location. Big companies like <span class="term">Intel</span>, <span class="term">AMD</span>,
                         <span class="term">NVIDIA</span>, <span class="term">Qualcomm</span>, etc. puting their Billions of $ in this area and fighting for their existance in the market and delivering high end processors to their customers like us.
                     </p>
                     <p>
-                        A good processor is determined by its processing power, cost, price, power consumptionm, and efficiency. A good and a bad processor can have 5ms-10ms of margin. Means that if both processor 'A' and 'B' build by the different companies or the same company with same cost
-                        ,selling in the same price and have same power consumption (idealy) but different processing power(model). If 'A' and 'B' do the same task where 'B' complete that task 5ms faster than 'A', then the processor 'B' will be the best, if the price of 'B' is twice the pice of 'A' then the 'A' would be the better
-                        option(depends on your budget) even though it is not as efficient as the 'B'.
+                        A good processor is determined by its processing power, cost, price, power consumption, and efficiency. A good and a bad processor can have 5ms-10ms of margin. Means that if both processor 'A' and 'B' build by the different companies or the same company with same cost,
+                        selling in the same price and have same power consumption (idealy) but have different processing power(model). If 'A' and 'B' do the same task where 'B' complete that task 5ms faster than 'A', then the processor 'B' will be the best, if the price of 'B' is twice the pice of 'A' then the 'A' would be the better
+                        option(depends on your budget) even though it is not as efficient as the 'B'. These small things decides which company doing better and will grow in future.
                     </p>
                     <p>
                         As of now when I'm writing this statement, I've Nvidia GPU GeForce RTX 2050 which is a RTX 20 series even though RTX 4090 is there in the market which is the best GPU as compare to RTX 2050 for doing task like gaming and computations like machine learning and deep learning,
                         fast and more efficiently and time saving. I believe that the RTX 2050 is good enough. You can play decent games and perform AI tasks with it.
                     </p>
                     <p>
-                        So that was a small introduction now we'll jump to main content
+                        So that was a small introduction now we'll jump to the main content
                     </p>
                 </div>
                 <div class="div">
@@ -92,6 +92,91 @@
                 </div>
                 <div class="what_is_cpu">
                     <h1 id="cpu">What is CPU?</h1>
+                    <p>
+                        A <span class="term">Central Processing Unit (CPU)</span> is the most important pieces of Hardware in any digital computing sytem, you can find <span class="term">CPU</span> on a computer's <span class="term">motherboard</span> whether it's a phone, a desktop, a laptop, a calulator, etc. In CPU there are billions of micro-transistor, which are the tiny switches
+                        that controls the flow of current through the <span class="term">ICs (Integrated Circuits)</span>. An <span class="term">ICs</span> is a small chip that build with other samll interconnected electronic components such as transistors, resistors and a capacitor, these <span class="term">ICs</span> then connected into the <span class="term">motherboard</span>.
+                        A computer's <span class="term">motherboard</span> is the board where all the ciruits are implanted on it and connect all the circuit components together. <span class="term">CPU</span> consider to be a brain of a computer that can perform any such as typing, clicking, browsing, selecting elements, etc these task are done under the <span class="term">CPU</span>,
+                        without it your device is just a useless box that belongs to a trash can.
+                    </p>
+                    <p>
+                        There are some pre-defined instructions set that <span class="term">CPU</span> can perform such as accessing or deleting memories, interfacing with keyboard, mouse, printer or any other hardware inputs. These set is given via communicating with the <span class="term">CPU</span> with a language and that language is not an English, Hindi or other that we speak
+                        daily but other language. The language in which we can communicate with <span class="term">CPU</span> is called the <span class="term">Programming Language</span> you might ask <b>what is <span class="term">Programming Language</span> why not other that I speak?</b> Well unfortunately not the reason behind that is the <span class="term">CPU</span>
+                        speaks(not really) in 0s and 1s it is what we called the <span class="term">Binary Digits</span>, where '0' represents that the current flowing through a circuit is 0 or minimum and '1' represents that the current flowing through a circuit is maximum. Whenever <span class="term">CPU</span> execute some task, under the hood it is basically dealing with the 
+                        <span class="term">Binary Digits</span>, and these digits could be very large and Human can't really understand what it is doing? To make life much easier some scientist came to a decision and create a <span class="term">programming language</span> that we use today, but that time <span class="term">programming language</span> was at <span class="term">low level</span>.
+                        There are 2 types of <span class="term">Programming Language</span>, <span class="term">Low Level</span> and <span class="term">High Level</span>. The <span class="term">Low Level Programming Language</span> are <span class="term">programming languages</span> that are similar to machine code and hardware, and provide direct control over a computer's resources where on the
+                        other hand <span class="term">high level programming languages</span> doesn't provide the full control on hardware.
+
+                        <table>
+                            <tr>
+                                <th>Features</th>
+                                <th>Low-Level Languages</th>
+                                <th>High-Level Languages</th>
+                            </tr>
+                            <tr>
+                                <td>Abstraction Level</td>
+                                <td>Close to hardware, minimal abstraction</td>
+                                <td>High abstraction, closer to human language</td>
+                            </tr>
+                            <tr>
+                                <td>Examples</td>
+                                <td>Assembly</td>
+                                <td>Python,C++,C,Java</td>
+                            </tr>
+                            <tr>
+                                <td>Efficiency</td>
+                                <td>High, direct hardware manipulation</td>
+                                <td>Lower, additional layers of abstraction</td>
+                            </tr>
+                            <tr>
+                                <td>Control over hardware</td>
+                                <td>Extensive, direct access to hardware resources</td>
+                                <td>Limited, abstracted away by the language/runtime</td>
+                            </tr>
+                            <tr>
+                                <td>Ease of use</td>
+                                <td>Difficult, requires detailed hardware knowledge</td>
+                                <td>Easy, more intuitive and user-friendly</td>
+                            </tr>
+                            <tr>
+                                <td>Development Speed</td>
+                                <td>Slow, time-consuming due to complexity</td>
+                                <td>Fast, many built-in functions and libraries</td>
+                            </tr>
+                            <tr>
+                                <td>Portability</td>
+                                <td>Low, hardware-specific instructions</td>
+                                <td>High, can run on different platforms with little to no changes</td>
+                            </tr>
+                            <tr>
+                                <td>Error-Prone</td>
+                                <td>High, prone to human errors</td>
+                                <td>Low, extensive error-checking and debugging tools</td>
+                            </tr>
+                            <tr>
+                                <td>Memory Management</td>
+                                <td>Manual, programmer must manage memory</td>
+                                <td>Automatic, garbage collection and other mechanisms</td>
+                            </tr>
+                            <tr>
+                                <td>Application Areas</td>
+                                <td>System software, device drivers, embedded systems</td>
+                                <td>Web development, data analysis, desktop applications, mobile apps</td>
+                            </tr>
+                            <tr>
+                                <td>Learning Curve</td>
+                                <td>Steep, requires understanding of computer architecture</td>
+                                <td>Gentle, often suitable for beginners</td>
+                            </tr>
+                            <tr>
+                                <td>Execution Speed</td>
+                                <td>Fast, minimal overhead</td>
+                                <td>Slower, due to layers of abstraction</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p>
+                        
+                    </p>
                 </div>
             </article>
         </div>
