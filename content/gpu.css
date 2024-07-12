@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "ProggyClean";
+    src: url("../assets/ProggyCleanSZNerdFontPropo-Regular.ttf") format("truetype");
+}
+
+.page_content{
+    background-color: #fdfdfd;
+}
+
+.wrapper{
+    margin: 1rem 4rem;
+    display: flex;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    font-family: "ProggyClean";
+    user-select: none;
+}
+
+.index{
+    text-decoration: none;
+    color: black;
+}
+
+.about_link{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem;
+    user-select: text;
+}
+
+.meta{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.time{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.title{
+    font-family: "ProggyClean";
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #2a7ae2;
+    font-size: 3rem;
+}
+
+.page p{
+    display: block;
+    user-select: text;
+    font-family: monospace;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.page h1{
+    font-family: monospace;
+    user-select: text;
+}
+
+.term{
+    color: coral;
+    font-weight: bolder;
+}
+
+.table ol{
+    font-family: monospace;
+}
+
+.div{
+    user-select: none;
+}
+
+.link{
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+    border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "ProggyClean";
+    src: url("../assets/ProggyCleanSZNerdFontPropo-Regular.ttf") format("truetype");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.about{
+    padding: 0 1rem;
+    font-family: "ProggyClean";
+    font-size: 2rem;
+}
+
+.content{
+    padding: 0 2rem;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.name{
+    color: coral;
+}
+
+.link{
+    text-decoration: none;
+}

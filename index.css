@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "ProggyClean";
+    src: url("./assets/ProggyCleanSZNerdFontPropo-Regular.ttf") format("truetype");
+}
+
+.page_content{
+    background-color: #fdfdfd;
+}
+
+.wrapper{
+    margin: 1rem 4rem;
+    display: flex;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    font-family: "ProggyClean";
+    user-select: none;
+}
+
+.index{
+    text-decoration: none;
+    color: black;
+}
+
+.about_link{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    user-select: none;
+}
+
+.home{
+    font-family: "ProggyClean";
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: 2rem;
+}
+
+.post_link{
+    font-family: "ProggyClean";
+    font-weight: bolder;
+    color: #2a7ae2;
+    font-size: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.date{
+    font-family: "cascadia code";
+    font-size: 11px;
+}
+
+
