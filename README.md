@@ -1,3 +1,3 @@
 # Blogs
 
-## I'm trying to develop a nicec blog
+## I'm trying to develop a nice blog
